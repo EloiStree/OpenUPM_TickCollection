@@ -24,4 +24,14 @@ public class TickMono_Delay : TickMono_AbstractDefault
     {
         base.TriggerTick();
     }
+
+    public void InvokeTickWithDelay()
+    {
+
+        Invoke("OnTick", m_delayTimeInSeconds);
+    }
+    public void InvokeTickWithDelay(float delayInSeconds)
+    {
+        Invoke("OnTick", delayInSeconds);
+    }
 }

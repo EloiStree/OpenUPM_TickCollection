@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,8 @@ public class TickMono_AbstractDefault : MonoBehaviour
     public void TriggerTick()
     {
         m_onTick.Invoke();
+        ChildrenAdditionalInvoke();
     }
 
-
+    public virtual void ChildrenAdditionalInvoke(){}
 }
