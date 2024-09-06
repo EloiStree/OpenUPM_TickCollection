@@ -7,9 +7,17 @@
     "keywords": [
         "Script",
         "Tool"
-    ],
-    "author" : {
-  "name":"Eloi Stree",
-  "mail":""},     
+    ],"samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  },
     "category": "Script"
 }
