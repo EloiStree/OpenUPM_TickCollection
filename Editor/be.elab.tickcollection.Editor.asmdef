@@ -1,8 +1,8 @@
 {
-    "name": "be.eloistree.tickcollection.Editor",
+    "name": "be.elab.tickcollection.Editor",
     "rootNamespace": "",
     "references": [
-        "be.eloistree.tickcollection.Runtime"
+        "be.elab.tickcollection.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
