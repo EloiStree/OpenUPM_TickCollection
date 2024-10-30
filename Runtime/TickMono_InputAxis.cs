@@ -8,18 +8,17 @@ public class TickMono_InputAxis: MonoBehaviour
     public InputActionReference m_inputAction;
     public UnityEvent<float> m_onValueChanged = new UnityEvent<float>();
     public Events m_events = new Events();
+    [System.Serializable]
     public class Events {
 
         [Header("Enter")]
-        public UnityEvent m_onMinEnter;
-        public UnityEvent m_onMaxEnter;
-        public UnityEvent m_onDeathZoneEnter;
+        public UnityEvent m_onMinEnter =new UnityEvent();
+        public UnityEvent m_onMaxEnter = new UnityEvent();
+        public UnityEvent m_onDeathZoneEnter = new UnityEvent();
         [Header("Exit")]
-        public UnityEvent m_onMinExit;
-        public UnityEvent m_onMaxExit;
-        public UnityEvent m_onDeathZoneExit;
-
-
+        public UnityEvent m_onMinExit = new UnityEvent();
+        public UnityEvent m_onMaxExit = new UnityEvent();
+        public UnityEvent m_onDeathZoneExit = new UnityEvent();
     }
 
     public float m_borderRange=0.8f;
