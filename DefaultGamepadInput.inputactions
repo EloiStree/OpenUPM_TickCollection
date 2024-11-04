@@ -65,8 +65,30 @@
                 },
                 {
                     "name": "",
+                    "id": "29cc875d-1301-464b-b273-d2e54e8541fe",
+                    "path": "<XInputController>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6bbb2c90-8c55-4d83-a216-2af474356ea7",
                     "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ace25195-c89f-46c9-8b96-8e20feaad598",
+                    "path": "<XInputController>/leftStick/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -87,6 +109,17 @@
                 },
                 {
                     "name": "",
+                    "id": "564e7868-1ad7-4eae-ac27-d3f50d1cd926",
+                    "path": "<XInputController>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c22a8f41-6e85-4a80-a743-3cdaad09e7ed",
                     "path": "<Gamepad>/rightStick/y",
                     "interactions": "",
@@ -98,7 +131,29 @@
                 },
                 {
                     "name": "",
+                    "id": "d22f1659-4a74-43fd-b0d4-46d58b41ecd4",
+                    "path": "<XInputController>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "05b3cbd7-1f08-4be9-896e-90862c3c186e",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ae8a5fe-5f11-4c5b-ba39-a8ab7ee2837d",
                     "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
                     "processors": "",
