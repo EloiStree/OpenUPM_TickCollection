@@ -1,7 +1,7 @@
 {
     "name": "be.elab.tickcollection",
     "displayName": "Tick Collection",
-    "version": "0.0.1",
+    "version": "2025.1.16",
     "unity": "2018.1",
     "description": "Tools to trick actions easily in protyping project.",
     "keywords": [
