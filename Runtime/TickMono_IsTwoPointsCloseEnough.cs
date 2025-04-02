@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_IsTwoPointsCloseEnough : MonoBehaviour
 {
@@ -39,5 +41,7 @@ public class TickMono_IsTwoPointsCloseEnough : MonoBehaviour
         else
             m_onUpdateFalse?.Invoke();
     }
+
+}
 
 }

@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+namespace Eloi.Tick
+{
 
 public class TickMono_InputAxis: MonoBehaviour
 {
@@ -106,3 +108,5 @@ public class TickMono_InputAxis: MonoBehaviour
 }
 
 
+
+}

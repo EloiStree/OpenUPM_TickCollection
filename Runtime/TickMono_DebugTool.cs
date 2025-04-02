@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_DebugTool : MonoBehaviour
 {
@@ -19,4 +21,6 @@ public class TickMono_DebugTool : MonoBehaviour
         Color randomColor = new Color(Random.value, Random.value, Random.value);
         m_onRandomColor.Invoke(randomColor);
     }
+}
+
 }

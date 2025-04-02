@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_OnCollisionWithAny : MonoBehaviour
 {
@@ -31,4 +33,6 @@ public class TickMono_OnCollisionWithAny : MonoBehaviour
     {
         return (m_layerMask.value & (1 << obj.layer)) != 0;
     }
+}
+
 }

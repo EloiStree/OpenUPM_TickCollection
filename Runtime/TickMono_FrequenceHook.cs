@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_FrequenceHook : MonoBehaviour
 {
@@ -48,5 +50,7 @@ public class TickMono_FrequenceHook : MonoBehaviour
             actionToCall.Invoke();
         }
     }
+
+}
 
 }

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+namespace Eloi.Tick
+{
 
 public class TickMono_GroupOfRelays : TickMono_AbstractDefault
 {
@@ -16,4 +18,6 @@ public class TickMono_GroupOfRelays : TickMono_AbstractDefault
                 item.TriggerTick();
         }
     }
+}
+
 }

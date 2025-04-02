@@ -1,5 +1,8 @@
 using UnityEngine;
 
+namespace Eloi.Tick
+{
+
 public class TickToolMono_ExitApplication : MonoBehaviour
 {
     
@@ -9,4 +12,6 @@ public class TickToolMono_ExitApplication : MonoBehaviour
         Application.Quit();
 
     }
+}
+
 }

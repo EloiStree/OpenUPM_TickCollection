@@ -1,6 +1,8 @@
 
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_AbstractDefault : MonoBehaviour
 {
@@ -14,4 +16,6 @@ public class TickMono_AbstractDefault : MonoBehaviour
     }
 
     public virtual void ChildrenAdditionalInvoke(){}
+}
+
 }

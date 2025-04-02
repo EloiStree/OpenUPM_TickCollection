@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+namespace Eloi.Tick
+{
 
 public class TickMono_Start : MonoBehaviour
 {
@@ -11,5 +13,7 @@ public class TickMono_Start : MonoBehaviour
     {
         m_onTick.Invoke();   
     }
+
+}
 
 }
