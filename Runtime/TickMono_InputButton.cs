@@ -7,7 +7,7 @@ namespace Eloi.Tick
 public class TickMono_InputButton: MonoBehaviour
 {
     public InputActionReference m_inputAction;
-    public UnityEvent m_onChanged;
+    public UnityEvent<bool> m_onChanged;
     public UnityEvent m_onDown;
     public UnityEvent m_onUp;
 
@@ -35,7 +35,7 @@ public class TickMono_InputButton: MonoBehaviour
         if (isPressed != m_isPressed)
         {
             m_isPressed = isPressed;
-            m_onChanged.Invoke();
+            m_onChanged.Invoke(isPressed);
             if (m_isPressed)
             {
                 m_onDown.Invoke();
