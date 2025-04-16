@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 namespace Eloi.Tick
 {
 
-public class TickMono_InputAxis: MonoBehaviour
+        public class TickMono_InputAxis: MonoBehaviour
 {
     public InputActionReference m_inputAction;
     public UnityEvent<float> m_onValueChanged = new UnityEvent<float>();
@@ -98,7 +98,7 @@ public class TickMono_InputAxis: MonoBehaviour
 
     private void OnDisable()
     {
-        m_inputAction.action.Disable();
+        //m_inputAction.action.Disable();
         m_inputAction.action.performed -= ctx => Context(ctx);
         m_inputAction.action.started -= ctx => Context(ctx);
         m_inputAction.action.canceled -= ctx => Context(ctx);
