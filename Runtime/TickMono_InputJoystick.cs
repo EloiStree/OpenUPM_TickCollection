@@ -9,6 +9,9 @@ namespace Eloi.Tick
         public UnityEvent<Vector2> m_onValueChanged = new UnityEvent<Vector2>();
         public Vector2 m_joystickValue = new Vector2();
 
+        public UnityEvent<float> m_onValueChangedX = new UnityEvent<float>();
+        public UnityEvent<float> m_onValueChangedY = new UnityEvent<float>();
+
         void OnEnable()
         {
             m_inputAction.action.Enable();
@@ -29,6 +32,8 @@ namespace Eloi.Tick
         {
             m_joystickValue = ctx.ReadValue<Vector2>();
             m_onValueChanged?.Invoke(m_joystickValue);
+            m_onValueChangedX?.Invoke(m_joystickValue.x);
+            m_onValueChangedY?.Invoke(m_joystickValue.y);
         }
     }
 
