@@ -3,7 +3,7 @@ using UnityEngine.Events;
 namespace Eloi.Tick
 {
 
-public class TickMono_OnCollisionWithAny : MonoBehaviour
+public class TickMono_OnCollisionWithAny : TickMono_AbstractDefault
 {
     [Tooltip("Specify which layers should trigger the event.")]
     public LayerMask m_layerMask= ~0; 
@@ -11,7 +11,6 @@ public class TickMono_OnCollisionWithAny : MonoBehaviour
     public bool m_useCollision = true;
     public bool m_useTrigger = true;
 
-    public UnityEvent m_onTick;
 
     private void OnCollisionEnter(Collision collision)
     {
