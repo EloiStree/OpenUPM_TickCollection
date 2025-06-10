@@ -3,15 +3,13 @@ using UnityEngine;
 namespace Eloi.Tick
 {
 
-public class TickToolMono_ExitApplication : MonoBehaviour
-{
-    
+    public class TickToolMono_ExitApplication : MonoBehaviour
+    {
+        public void ExitTheApplication()
+        {
 
-    public void ExitTheApplication(){
+            Application.Quit();
 
-        Application.Quit();
-
+        }
     }
-}
-
 }
