@@ -15,6 +15,7 @@ public class TickMono_DoWhileCoroutine : TickMono_AbstractDefault
 
     private IEnumerator DoWhileCoroutine()
     {
+            bool exit=false;
         do
         {
             base.TriggerTick();
@@ -22,7 +23,8 @@ public class TickMono_DoWhileCoroutine : TickMono_AbstractDefault
             if (m_secondsBetweenTicks <= 0)
                 yield return new WaitForEndOfFrame();
             base.TriggerTick();
-        } while (true);
+        } while (!exit);
+        yield return new WaitForSeconds(0);
     }
 
 }
